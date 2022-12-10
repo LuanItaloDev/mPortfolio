@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer'
 import Portfolio from '../components/portfolio/Portfolio'
 import MyBlog from '../components/myBlog/MyBlog'
 import styles from '../styles/Home.module.css'
-
+import Falecomigo from '../components/falecomigo/Falecomigo'
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <Hero/>
       <Portfolio/>
       {/* <MyBlog/> */}
+      <Falecomigo/>
       <Footer/>
     </div>
   )

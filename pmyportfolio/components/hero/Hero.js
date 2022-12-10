@@ -1,11 +1,11 @@
 import Link from "next/link";
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 export default function Hero () {
     return(
         <section className="flex flex-col h-screen">
             <div className="p-10 container my-auto mx-auto md:px-10 lg:px-10 xl:px-5 md:my-52 md:w-1/2">
-                {/* <Fade bottom> */}
+                <Fade bottom>
                     <p className='font-semibold  text-white text-xl'>Saudações <span className='p-2 text-4xl'>👋🏻</span> </p>
                     <p className='text-4xl xl:text-7xl font-black text-white mb-5'>
                         Me chamo Luan.<br/>Eu crio coisas para a web.
@@ -20,7 +20,7 @@ export default function Hero () {
                             Fale comido
                         </button>
                     </Link>
-                {/* </Fade> */}
+                </Fade>
             </div>
         </section>
     )
