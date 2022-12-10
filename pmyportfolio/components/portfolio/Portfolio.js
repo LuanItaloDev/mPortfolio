@@ -1,15 +1,15 @@
 import ItemPortfolio from "./ItemPortfolio/ItemPortfolio"
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 export default function Portfolio(){
     return(
         <section className="flex flex-col h-full py-10">
-            <Fade bottom>
+            {/* <Fade bottom> */}
                 <h2 className="text-4xl font-extrabold text-white text-center mb-5">Portfolio</h2>
                 <p className='text-xl  text-slate-300 text-center px-5'>
                     Sou um <span className='text-sky-500'>freelancer</span> apaixonado por tecnologia e adepto ao <span className='text-sky-500'>Lifelong Learning.</span>
                 </p>
-            </Fade>
+            {/* </Fade> */}
                 <div className="flex flex-row justify-center  flex-wrap container mx-auto items-center content-center">
                     <ItemPortfolio
                         titulo="mmBrokers"
