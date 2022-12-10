@@ -5,7 +5,6 @@ export default function Blog(){
         <>
             <Menu/>
             <h1 className="text-5xl text-white">Blog</h1>
-
         </>
     )
 }

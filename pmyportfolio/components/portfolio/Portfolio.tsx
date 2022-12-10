@@ -3,7 +3,7 @@ import ItemPortfolio from "./ItemPortfolio/ItemPortfolio"
 
 export default function Portfolio(){
     return(
-        <section className="flex flex-col h-full py-10">
+        <section id="Portfolio" className="flex flex-col h-full py-10">
             {/* <Fade bottom> */}
                 <h2 className="text-4xl font-extrabold text-white text-center mb-5">Portfolio</h2>
                 <p className='text-xl  text-slate-300 text-center px-5'>
