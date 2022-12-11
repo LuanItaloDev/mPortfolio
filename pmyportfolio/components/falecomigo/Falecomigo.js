@@ -8,11 +8,9 @@ export default function Falecomigo(){
                 <apan className="text-white text-5xl font-black">
                     Vamos criar algo juntos ?
                 </apan>
-                <p className='text-2xl text-gray-500 mt-3 mb-3'>
-                    Loren ipsum
-                </p>
-                <p className='text-2xl text-white'>
-                    Sinta se, avontade para me enviar um email,<br/> vai ser um prazer conversar com você! 🙋‍♂️
+                <p className='text-2xl text-white mt-8'>
+                    Sinta se, à avontade para falar comigo, em algumas das minhas redes sociais!<br/>
+                    Será um prazer conversar com você 🙋‍♂️
                 </p>
                 {/* </Slide> */}
                 <Link href="https://linktr.ee/luanitalo">

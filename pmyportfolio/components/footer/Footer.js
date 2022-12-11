@@ -15,7 +15,7 @@ export default function Footer (){
                         alt='GitHub Social'
                         width={25}
                         height={25}
-                    />                
+                    />
                 </Link>
                 <Link className="" href="https://www.instagram.com/luanitalofl/">
                     <Image className="cursor-pointer"

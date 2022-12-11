@@ -2,10 +2,10 @@ import { Link, animateScroll as scroll } from "react-scroll/modules";
 
 export default function Menu(){
     return (
-    <nav className="fixed top-0 left-0 backdrop-blur-sm bg-black/30 w-full shadow z-50">
-        <div className="container m-auto flex justify-between items-center text-white">
-            <h1 className="pl-8 py-4 text-xl font-bold cursor-pointer">Luan Italo</h1>
-            <ul className="hidden md:flex items-center pr-10 text-base font-semibold cursor-pointer">
+    <nav className="fixed top-0 left-0 py-5 backdrop-blur-sm bg-black/30 w-full shadow z-50">
+        <div className="container m-auto flex justify-between items-center text-white  px-5">
+            <h1 className=" text-3xl font-bold cursor-pointer">Luan Italo</h1>
+            <ul className="hidden md:flex items-center  text-lg font-medium cursor-pointer">
             <Link 
                 activeClass="active"
                 to="Inicio"
@@ -30,10 +30,10 @@ export default function Menu(){
             <Link 
                 href="../../pages/blog.tsx" legacyBehavior>
 
-                <li className="py-4 px-6">Blog</li>
+                <li className="py-4 pl-6">Blog</li>
             </Link>
             </ul>
-            <button className="block  md:hidden py-3 dpx-4 rounded focus:outline-none group z-50">
+            <button className="block  md:hidden py-3 dpx-4 rounded focus:outline-none group z-50 ">
                 <div className="w-5 h-1 bg-white mb-1"></div>
                 <div className="w-5 h-1 bg-white mb-1"></div>
                 <div className="w-5 h-1 bg-white"></div>
