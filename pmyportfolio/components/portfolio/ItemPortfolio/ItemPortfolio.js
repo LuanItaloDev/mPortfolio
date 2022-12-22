@@ -4,8 +4,8 @@ import Link from "next/link"
 export default function ItemPortfolio(props){
     return(
             <section className="flex justify-center items-center gap-5  mt-16 ">
-                <div className="flex flex-col md:flex-row justify-between gap-10 border-b-4 transition duration-300 hover:bg-stone-900 border-green-800 hover:border-sky-700 p-7 ">
-                    <div className="flex flex-col md:w-96 ">
+                <div className="flex flex-col md:flex-row justify-between items-center gap-10 border-b-4 transition duration-300 hover:bg-stone-900 border-green-800 hover:border-sky-700 p-7 ">
+                    <div className="flex flex-col md:w-96">
                         <h4 className="text-white text-4xl font-semibold mb-10">{props.titulo}</h4>
                         <p className="text-white text-xl">
                             {props.descricao}

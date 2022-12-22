@@ -7,7 +7,7 @@ export default function Portfolio(){
             {/* <Fade bottom> */}
                 <h2 className="text-4xl font-extrabold text-white text-center mb-5">Portfolio</h2>
                 <p className='text-xl  text-slate-300 text-center px-5'>
-                    Sou um <span className='text-sky-500'>freelancer</span> apaixonado por tecnologia e adepto ao <span className='text-sky-500'>Lifelong Learning.</span>
+                    Estes são alguns <span className='text-sky-500'>projetos</span> em que trabalhei.
                 </p>
             {/* </Fade> */}
                 <div className="flex flex-row justify-center  flex-wrap container mx-auto items-center content-center">
@@ -19,17 +19,15 @@ export default function Portfolio(){
                     />
                     <ItemPortfolio
                         titulo="DRC Imobiliária"
-                        descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sapien lobortis, commodo sapien non, 
-                        pulvinar erat. Sed et tortor quis turpis malesuada luctus sagittis in libero. Aenean ut enim dui. Nulla 
-                        posuere luctus porta. Mauris rhoncus molestie faucibus."
+                        descricao="A DRC é uma imobiliária que atua há mais de 14 anos no mercado, especializada em imóveis de médio e alto padrão.
+                        O site funciona com oum catálogo de imóveis, onde cada corretor pode cadastrar seus proprios imóveis.
+                        "
                         img="/images/imagemcliente3.png"
                         txtalternativo="Site DRC"
                     />
                     <ItemPortfolio
                         titulo="Infinity Loteamentos"
-                        descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sapien lobortis, commodo sapien non, 
-                        pulvinar erat. Sed et tortor quis turpis malesuada luctus sagittis in libero. Aenean ut enim dui. Nulla 
-                        posuere luctus porta. Mauris rhoncus molestie faucibus."
+                        descricao="Uma loteadora com mais de 4 mil lotes lançados. Possui os maiores bairros planejados do Norte e Nordeste do Brasil "
                         img="/images/imagemcliente2.png"
                         txtalternativo="Site mmBrokers"
                     />
